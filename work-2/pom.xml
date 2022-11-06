@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.system</groupId>
-    <artifactId>work-1</artifactId>
+    <groupId>com.system.jpa</groupId>
+    <artifactId>work-2</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -21,6 +21,10 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
 
